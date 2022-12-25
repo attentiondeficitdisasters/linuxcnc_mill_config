@@ -95,7 +95,7 @@
   <property name="astepscale" type="float" value="17.7778"/>
   <property name="astepspace" type="float" value="5000.0"/>
   <property name="asteptime" type="float" value="5000.0"/>
-  <property name="ausebacklash" type="bool" value="False"/>
+  <property name="ausebacklash" type="bool" value="True"/>
   <property name="ausecomp" type="bool" value="False"/>
   <property name="ausehomeindex" type="int" value="0"/>
   <property name="autotouchz" type="bool" value="False"/>
@@ -106,15 +106,15 @@
   <property name="axissize" type="eval" value="[False, 0.0, 0.0]"/>
   <property name="baseperiod" type="int" value="50000"/>
   <property name="bitmem" type="float" value="50.0"/>
-  <property name="cbencoder_pitch" type="string" value="65548"/>
-  <property name="cbencoder_pulley" type="string" value="65551"/>
-  <property name="cbencoder_tpi" type="string" value="65549"/>
-  <property name="cbencoder_worm" type="string" value="65550"/>
-  <property name="cbmicrosteps" type="string" value="65554"/>
-  <property name="cbmotor_pitch" type="string" value="65552"/>
-  <property name="cbmotor_pulley" type="string" value="65556"/>
-  <property name="cbmotor_tpi" type="string" value="65553"/>
-  <property name="cbmotor_worm" type="string" value="65555"/>
+  <property name="cbencoder_pitch" type="string" value="62934"/>
+  <property name="cbencoder_pulley" type="string" value="62937"/>
+  <property name="cbencoder_tpi" type="string" value="62935"/>
+  <property name="cbencoder_worm" type="string" value="62936"/>
+  <property name="cbmicrosteps" type="string" value="62940"/>
+  <property name="cbmotor_pitch" type="string" value="62938"/>
+  <property name="cbmotor_pulley" type="string" value="62942"/>
+  <property name="cbmotor_tpi" type="string" value="62939"/>
+  <property name="cbmotor_worm" type="string" value="62941"/>
   <property name="centerembededgvcp" type="bool" value="True"/>
   <property name="cl_haluicmds" type="int" value="0"/>
   <property name="classicladder" type="bool" value="False"/>
@@ -122,20 +122,20 @@
   <property name="createsymlink" type="bool" value="True"/>
   <property name="customhal" type="bool" value="False"/>
   <property name="default_angular_velocity" type="float" value="12.0"/>
-  <property name="default_linear_velocity" type="float" value="0.1"/>
+  <property name="default_linear_velocity" type="float" value="0.333333333333"/>
   <property name="digitsin" type="float" value="15.0"/>
   <property name="digitsout" type="float" value="15.0"/>
   <property name="dirhold" type="int" value="20000"/>
   <property name="dirsetup" type="int" value="20000"/>
   <property name="drivertype" type="string" value="other"/>
   <property name="editor" type="string" value="geany"/>
-  <property name="encoder_leadscrew" type="string" value="65534"/>
-  <property name="encoder_leadscrew_tpi" type="string" value="65535"/>
-  <property name="encoder_pulleydriven" type="string" value="65538"/>
-  <property name="encoder_pulleydriver" type="string" value="65539"/>
-  <property name="encoder_wormdriven" type="string" value="65536"/>
-  <property name="encoder_wormdriver" type="string" value="65537"/>
-  <property name="encoderline" type="string" value="65533"/>
+  <property name="encoder_leadscrew" type="string" value="62920"/>
+  <property name="encoder_leadscrew_tpi" type="string" value="62921"/>
+  <property name="encoder_pulleydriven" type="string" value="62924"/>
+  <property name="encoder_pulleydriver" type="string" value="62925"/>
+  <property name="encoder_wormdriven" type="string" value="62922"/>
+  <property name="encoder_wormdriver" type="string" value="62923"/>
+  <property name="encoderline" type="string" value="62919"/>
   <property name="externalfo" type="bool" value="False"/>
   <property name="externaljog" type="bool" value="False"/>
   <property name="externalmpg" type="bool" value="False"/>
@@ -242,7 +242,7 @@
   <property name="homeswitch" type="bool" value="False"/>
   <property name="homingtype" type="int" value="0"/>
   <property name="include_spindle" type="bool" value="False"/>
-  <property name="increments_imperial" type="string" value=".1in .05in .01in .005in .001in .0005in .0001in"/>
+  <property name="increments_imperial" type="string" value=".0005in .005in .05in"/>
   <property name="increments_metric" type="string" value="5mm 1mm .5mm .1mm .05mm .01mm .005mm"/>
   <property name="incrselect" type="bool" value="False"/>
   <property name="individual_homing" type="bool" value="False"/>
@@ -265,7 +265,7 @@
   <property name="joycmdypos" type="string" value="input.0.abs-hat0y-is-pos"/>
   <property name="joycmdzneg" type="string" value="input.0.btn-a"/>
   <property name="joycmdzpos" type="string" value="input.0.btn-y"/>
-  <property name="joystickjog" type="bool" value="True"/>
+  <property name="joystickjog" type="bool" value="False"/>
   <property name="joystickjograpidrate0" type="float" value="0.1"/>
   <property name="joystickjograpidrate1" type="float" value="1.0"/>
   <property name="joystickjograpidrate2" type="float" value="10.0"/>
@@ -323,13 +323,13 @@
   <property name="mesa0c1pin13" type="string" value="unused-sserial"/>
   <property name="mesa0c1pin13inv" type="bool" value="False"/>
   <property name="mesa0c1pin13type" type="string" value="SSERIAL-P1-RX"/>
-  <property name="mesa0c1pin14" type="string" value="unused-encoder"/>
+  <property name="mesa0c1pin14" type="string" value="select-mpg-i"/>
   <property name="mesa0c1pin14inv" type="bool" value="False"/>
   <property name="mesa0c1pin14type" type="string" value="Quad Enc-I"/>
-  <property name="mesa0c1pin15" type="string" value="unused-encoder"/>
+  <property name="mesa0c1pin15" type="string" value="select-mpg-b"/>
   <property name="mesa0c1pin15inv" type="bool" value="False"/>
   <property name="mesa0c1pin15type" type="string" value="Quad Enc-B"/>
-  <property name="mesa0c1pin16" type="string" value="unused-encoder"/>
+  <property name="mesa0c1pin16" type="string" value="select-mpg-a"/>
   <property name="mesa0c1pin16inv" type="bool" value="False"/>
   <property name="mesa0c1pin16type" type="string" value="Quad Enc-A"/>
   <property name="mesa0c1pin17" type="string" value="unused-unused"/>
@@ -1004,10 +1004,10 @@
   <property name="mesa0sserial0_0pin23" type="string" value="unused-output"/>
   <property name="mesa0sserial0_0pin23inv" type="bool" value="False"/>
   <property name="mesa0sserial0_0pin23type" type="string" value="GPIO Output"/>
-  <property name="mesa0sserial0_0pin24" type="string" value="unused-encoder"/>
+  <property name="mesa0sserial0_0pin24" type="string" value="select-mpg-b"/>
   <property name="mesa0sserial0_0pin24inv" type="bool" value="False"/>
   <property name="mesa0sserial0_0pin24type" type="string" value="Quad Enc-B"/>
-  <property name="mesa0sserial0_0pin25" type="string" value="unused-encoder"/>
+  <property name="mesa0sserial0_0pin25" type="string" value="select-mpg-a"/>
   <property name="mesa0sserial0_0pin25inv" type="bool" value="False"/>
   <property name="mesa0sserial0_0pin25type" type="string" value="Quad Enc-A"/>
   <property name="mesa0sserial0_0pin26" type="string" value="unused-encoder"/>
@@ -3792,7 +3792,7 @@
   <property name="mesa1sserial0_5pin9inv" type="bool" value="False"/>
   <property name="mesa1sserial0_5pin9type" type="string" value="GPIO Input"/>
   <property name="mesa1sserial0_5subboard" type="string" value="none"/>
-  <property name="microstep" type="string" value="65543"/>
+  <property name="microstep" type="string" value="62929"/>
   <property name="min_angular_velocity" type="float" value="1.66666666667"/>
   <property name="min_linear_velocity" type="float" value="0.0166666666667"/>
   <property name="min_spindle_override" type="float" value="0.5"/>
@@ -3803,32 +3803,32 @@
   <property name="mitsub_vfd_id" type="string" value="('spindle_vfd', 1)"/>
   <property name="mitsub_vfd_port" type="string" value="/dev/ttyS0"/>
   <property name="modbus" type="bool" value="False"/>
-  <property name="motor_leadscrew" type="string" value="65541"/>
-  <property name="motor_leadscrew_tpi" type="string" value="65542"/>
-  <property name="motor_pulleydriven" type="string" value="65546"/>
-  <property name="motor_pulleydriver" type="string" value="65547"/>
-  <property name="motor_wormdriven" type="string" value="65544"/>
-  <property name="motor_wormdriver" type="string" value="65545"/>
-  <property name="mpgdebounce" type="bool" value="True"/>
+  <property name="motor_leadscrew" type="string" value="62927"/>
+  <property name="motor_leadscrew_tpi" type="string" value="62928"/>
+  <property name="motor_pulleydriven" type="string" value="62932"/>
+  <property name="motor_pulleydriver" type="string" value="62933"/>
+  <property name="motor_wormdriven" type="string" value="62930"/>
+  <property name="motor_wormdriver" type="string" value="62931"/>
+  <property name="mpgdebounce" type="bool" value="False"/>
   <property name="mpgdebouncetime" type="float" value="0.2"/>
   <property name="mpggraycode" type="bool" value="False"/>
   <property name="mpgignorefalse" type="bool" value="False"/>
-  <property name="mpgincrvalue0" type="float" value="0.0"/>
-  <property name="mpgincrvalue1" type="float" value="0.0001"/>
-  <property name="mpgincrvalue10" type="float" value="0.125"/>
-  <property name="mpgincrvalue11" type="float" value="0.125"/>
-  <property name="mpgincrvalue12" type="float" value="0.125"/>
-  <property name="mpgincrvalue13" type="float" value="0.125"/>
-  <property name="mpgincrvalue14" type="float" value="0.125"/>
-  <property name="mpgincrvalue15" type="float" value="0.125"/>
-  <property name="mpgincrvalue2" type="float" value="0.0005"/>
-  <property name="mpgincrvalue3" type="float" value="0.001"/>
-  <property name="mpgincrvalue4" type="float" value="0.005"/>
-  <property name="mpgincrvalue5" type="float" value="0.01"/>
-  <property name="mpgincrvalue6" type="float" value="0.05"/>
-  <property name="mpgincrvalue7" type="float" value="0.1"/>
-  <property name="mpgincrvalue8" type="float" value="0.125"/>
-  <property name="mpgincrvalue9" type="float" value="0.125"/>
+  <property name="mpgincrvalue0" type="float" value="0.0005"/>
+  <property name="mpgincrvalue1" type="float" value="0.005"/>
+  <property name="mpgincrvalue10" type="float" value="0.0"/>
+  <property name="mpgincrvalue11" type="float" value="0.0"/>
+  <property name="mpgincrvalue12" type="float" value="0.0"/>
+  <property name="mpgincrvalue13" type="float" value="0.0"/>
+  <property name="mpgincrvalue14" type="float" value="0.0"/>
+  <property name="mpgincrvalue15" type="float" value="0.0"/>
+  <property name="mpgincrvalue2" type="float" value="0.05"/>
+  <property name="mpgincrvalue3" type="float" value="0.0"/>
+  <property name="mpgincrvalue4" type="float" value="0.0"/>
+  <property name="mpgincrvalue5" type="float" value="0.0"/>
+  <property name="mpgincrvalue6" type="float" value="0.0"/>
+  <property name="mpgincrvalue7" type="float" value="0.0"/>
+  <property name="mpgincrvalue8" type="float" value="0.0"/>
+  <property name="mpgincrvalue9" type="float" value="0.0"/>
   <property name="multijogbuttons" type="bool" value="True"/>
   <property name="multimpg" type="bool" value="False"/>
   <property name="mvo_usempg" type="bool" value="False"/>
@@ -4031,7 +4031,7 @@
   <property name="pyvcpwidth" type="float" value="0.0"/>
   <property name="pyvcpxpos" type="float" value="0.0"/>
   <property name="pyvcpypos" type="float" value="0.0"/>
-  <property name="raise_z_on_toolchange" type="bool" value="False"/>
+  <property name="raise_z_on_toolchange" type="bool" value="True"/>
   <property name="random_toolchanger" type="bool" value="False"/>
   <property name="require_homing" type="bool" value="False"/>
   <property name="restore_joint_position" type="bool" value="False"/>
@@ -4147,7 +4147,7 @@
   <property name="sstepspace" type="float" value="5000.0"/>
   <property name="ssteptime" type="float" value="5000.0"/>
   <property name="standalonegvcp" type="bool" value="False"/>
-  <property name="steprev" type="string" value="65540"/>
+  <property name="steprev" type="string" value="62926"/>
   <property name="stepspace" type="int" value="5000"/>
   <property name="steptime" type="int" value="5000"/>
   <property name="suseatspeed" type="bool" value="False"/>
@@ -4225,7 +4225,7 @@
   <property name="xcompfilename" type="string" value="xcompensation"/>
   <property name="xcomptype" type="int" value="0"/>
   <property name="xdeadband" type="float" value="0.0"/>
-  <property name="xdirhold" type="float" value="20000.0"/>
+  <property name="xdirhold" type="float" value="10000.0"/>
   <property name="xdirsetup" type="float" value="1000.0"/>
   <property name="xdrivertype" type="string" value="custom"/>
   <property name="xencoder_leadscrew" type="float" value="5.0"/>
@@ -4247,11 +4247,11 @@
   <property name="xinvertencoder" type="bool" value="False"/>
   <property name="xinvertmotor" type="bool" value="True"/>
   <property name="xlatchdir" type="int" value="0"/>
-  <property name="xmaxacc" type="float" value="50.0"/>
+  <property name="xmaxacc" type="float" value="40.0"/>
   <property name="xmaxferror" type="float" value="0.5"/>
   <property name="xmaxlim" type="float" value="21.0"/>
   <property name="xmaxoutput" type="float" value="0.0"/>
-  <property name="xmaxvel" type="float" value="8.33333333333"/>
+  <property name="xmaxvel" type="float" value="6.66666666667"/>
   <property name="xmicrostep" type="float" value="4.0"/>
   <property name="xminferror" type="float" value="0.05"/>
   <property name="xminlim" type="float" value="0.0"/>
@@ -4269,7 +4269,7 @@
   <property name="xstepscale" type="float" value="10159.9997"/>
   <property name="xstepspace" type="float" value="4000.0"/>
   <property name="xsteptime" type="float" value="500.0"/>
-  <property name="xusebacklash" type="bool" value="False"/>
+  <property name="xusebacklash" type="bool" value="True"/>
   <property name="xusecomp" type="bool" value="False"/>
   <property name="xusehomeindex" type="int" value="0"/>
   <property name="y3pwmdeadtime" type="float" value="100.0"/>
@@ -4341,11 +4341,11 @@
   <property name="yinvertencoder" type="bool" value="False"/>
   <property name="yinvertmotor" type="bool" value="False"/>
   <property name="ylatchdir" type="int" value="0"/>
-  <property name="ymaxacc" type="float" value="50.0"/>
+  <property name="ymaxacc" type="float" value="40.0"/>
   <property name="ymaxferror" type="float" value="0.5"/>
   <property name="ymaxlim" type="float" value="10.0"/>
   <property name="ymaxoutput" type="float" value="0.0"/>
-  <property name="ymaxvel" type="float" value="8.33333333333"/>
+  <property name="ymaxvel" type="float" value="5.0"/>
   <property name="ymicrostep" type="float" value="4.0"/>
   <property name="yminferror" type="float" value="0.05"/>
   <property name="yminlim" type="float" value="0.0"/>
@@ -4363,7 +4363,7 @@
   <property name="ystepscale" type="float" value="10159.9997"/>
   <property name="ystepspace" type="float" value="5000.0"/>
   <property name="ysteptime" type="float" value="5000.0"/>
-  <property name="yusebacklash" type="bool" value="False"/>
+  <property name="yusebacklash" type="bool" value="True"/>
   <property name="yusecomp" type="bool" value="False"/>
   <property name="yusehomeindex" type="int" value="0"/>
   <property name="z3pwmdeadtime" type="float" value="100.0"/>
@@ -4430,22 +4430,22 @@
   <property name="zeroz" type="bool" value="False"/>
   <property name="zhomefinalvel" type="float" value="0.0166666666667"/>
   <property name="zhomelatchvel" type="float" value="0.166666666667"/>
-  <property name="zhomepos" type="float" value="14.0"/>
+  <property name="zhomepos" type="float" value="16.0"/>
   <property name="zhomesearchvel" type="float" value="0.75"/>
   <property name="zhomesequence" type="float" value="0.0"/>
-  <property name="zhomesw" type="float" value="0.0"/>
+  <property name="zhomesw" type="float" value="16.0"/>
   <property name="zhometandemsw" type="float" value="0.0"/>
   <property name="zhomevel" type="float" value="0.05"/>
   <property name="zinvertencoder" type="bool" value="False"/>
   <property name="zinvertmotor" type="bool" value="True"/>
   <property name="zlatchdir" type="int" value="0"/>
-  <property name="zmaxacc" type="float" value="50.0"/>
+  <property name="zmaxacc" type="float" value="20.0"/>
   <property name="zmaxferror" type="float" value="0.5"/>
-  <property name="zmaxlim" type="float" value="14.0"/>
+  <property name="zmaxlim" type="float" value="16.2"/>
   <property name="zmaxoutput" type="float" value="0.0"/>
   <property name="zmaxvel" type="float" value="3.33333333333"/>
   <property name="zmicrostep" type="float" value="4.0"/>
-  <property name="zminferror" type="float" value="0.05"/>
+  <property name="zminferror" type="float" value="0.06"/>
   <property name="zminlim" type="float" value="0.0"/>
   <property name="zmotor_leadscrew" type="float" value="5.0"/>
   <property name="zmotor_leadscrew_tpi" type="float" value="5.0"/>
@@ -4458,10 +4458,10 @@
   <property name="zoutputscale" type="float" value="10.0"/>
   <property name="zsearchdir" type="int" value="1"/>
   <property name="zsteprev" type="float" value="500.0"/>
-  <property name="zstepscale" type="float" value="7952.0"/>
+  <property name="zstepscale" type="float" value="7902.222"/>
   <property name="zstepspace" type="float" value="5000.0"/>
   <property name="zsteptime" type="float" value="5000.0"/>
-  <property name="zusebacklash" type="bool" value="False"/>
+  <property name="zusebacklash" type="bool" value="True"/>
   <property name="zusecomp" type="bool" value="False"/>
   <property name="zusehomeindex" type="int" value="0"/>
 </pncconf>
