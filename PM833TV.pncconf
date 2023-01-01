@@ -1129,7 +1129,7 @@
   <property name="mesa0sserial0_0pin7" type="string" value="unused-input"/>
   <property name="mesa0sserial0_0pin7inv" type="bool" value="False"/>
   <property name="mesa0sserial0_0pin7type" type="string" value="GPIO Input"/>
-  <property name="mesa0sserial0_0pin8" type="string" value="unused-input"/>
+  <property name="mesa0sserial0_0pin8" type="string" value="probe-in"/>
   <property name="mesa0sserial0_0pin8inv" type="bool" value="False"/>
   <property name="mesa0sserial0_0pin8type" type="string" value="GPIO Input"/>
   <property name="mesa0sserial0_0pin9" type="string" value="home-z"/>
@@ -4249,7 +4249,7 @@
   <property name="xlatchdir" type="int" value="0"/>
   <property name="xmaxacc" type="float" value="40.0"/>
   <property name="xmaxferror" type="float" value="0.5"/>
-  <property name="xmaxlim" type="float" value="21.0"/>
+  <property name="xmaxlim" type="float" value="20.0"/>
   <property name="xmaxoutput" type="float" value="0.0"/>
   <property name="xmaxvel" type="float" value="6.66666666667"/>
   <property name="xmicrostep" type="float" value="4.0"/>

@@ -1,9 +1,9 @@
-2022-02-17 19:59:03,834 - qtpyvcp - INFO - Logging to /home/cnc/linuxcnc/configs/probe_basic/config/probe_basic/sim.log
-2022-02-17 19:59:03,835 - qtpyvcp - INFO - QtPyVCP Version: v0.3.19
-2022-02-17 19:59:03,965 - qtpyvcp - DEBUG - Qt Version: 5.11.3
-2022-02-17 19:59:03,966 - qtpyvcp - DEBUG - Qt API: QT_API
-2022-02-17 19:59:03,966 - qtpyvcp - DEBUG - QtPy Version: 1.11.3
-2022-02-17 19:59:03,967 - qtpyvcp - DEBUG - Command line options:
+2022-12-26 15:24:42,552 - qtpyvcp - INFO - Logging to /home/cnc/linuxcnc/configs/probe_basic/config/probe_basic/sim.log
+2022-12-26 15:24:42,553 - qtpyvcp - INFO - QtPyVCP Version: v0.3.19
+2022-12-26 15:24:42,666 - qtpyvcp - DEBUG - Qt Version: 5.11.3
+2022-12-26 15:24:42,667 - qtpyvcp - DEBUG - Qt API: QT_API
+2022-12-26 15:24:42,667 - qtpyvcp - DEBUG - QtPy Version: 1.11.3
+2022-12-26 15:24:42,668 - qtpyvcp - DEBUG - Command line options:
 {
     "command_line_args": null, 
     "config_file": "/home/cnc/linuxcnc/configs/probe_basic/config/probe_basic/custom_config.yml", 
@@ -27,8 +27,8 @@
     "theme": null, 
     "version": false
 }
-2022-02-17 19:59:04,509 - qtpyvcp.utilities.config_loader - DEBUG - Loading config files: ['/home/cnc/linuxcnc/configs/probe_basic/config/probe_basic/custom_config.yml', '/home/cnc/.local/lib/python2.7/site-packages/probe_basic/probe_basic.yml', '/home/cnc/.local/lib/python2.7/site-packages/qtpyvcp/yaml_lib/default_config.yml']
-2022-02-17 19:59:05,605 - qtpyvcp.utilities.config_loader - DEBUG - Merged YAML config:
+2022-12-26 15:24:43,164 - qtpyvcp.utilities.config_loader - DEBUG - Loading config files: ['/home/cnc/linuxcnc/configs/probe_basic/config/probe_basic/custom_config.yml', '/home/cnc/.local/lib/python2.7/site-packages/probe_basic/probe_basic.yml', '/home/cnc/.local/lib/python2.7/site-packages/qtpyvcp/yaml_lib/default_config.yml']
+2022-12-26 15:24:44,244 - qtpyvcp.utilities.config_loader - DEBUG - Merged YAML config:
 
 default_menubar:
 - title: File
@@ -556,163 +556,163 @@ qtdesigner:
   qss_file: /home/cnc/.local/lib/python2.7/site-packages/probe_basic/probe_basic.qss
 
 
-2022-02-17 19:59:06,529 - qtpyvcp.utilities.info - INFO - The machine has 5 axes and 5 joints
-2022-02-17 19:59:06,530 - qtpyvcp.utilities.info - INFO - The Axis/Joint mapping is:
-2022-02-17 19:59:06,530 - qtpyvcp.utilities.info - INFO - Axis X --> Joint 0
-2022-02-17 19:59:06,531 - qtpyvcp.utilities.info - INFO - Axis Y --> Joint 1
-2022-02-17 19:59:06,531 - qtpyvcp.utilities.info - INFO - Axis Z --> Joint 2
-2022-02-17 19:59:06,531 - qtpyvcp.utilities.info - INFO - Axis A --> Joint 3
-2022-02-17 19:59:06,532 - qtpyvcp.utilities.info - INFO - Axis B --> Joint 4
-2022-02-17 19:59:06,532 - qtpyvcp.app.launcher - DEBUG - Time: 0.000 (+0.000) - in script
-2022-02-17 19:59:06,534 - qtpyvcp.app.launcher - DEBUG - Loading data plugings
-2022-02-17 19:59:06,534 - qtpyvcp.plugins - DEBUG - Loading plugin 'status' from 'qtpyvcp.plugins.status:Status'
-2022-02-17 19:59:06,542 - qtpyvcp.plugins.status - DEBUG - ---------set mdi_history: None, []
-2022-02-17 19:59:06,561 - qtpyvcp.plugins - DEBUG - Loading plugin 'persistent_data_manager' from 'qtpyvcp.plugins.persistent_data_manager:PersistentDataManager'
-2022-02-17 19:59:06,571 - qtpyvcp.plugins - DEBUG - Loading plugin 'settings' from 'qtpyvcp.plugins.settings:Settings'
-2022-02-17 19:59:06,574 - qtpyvcp.plugins - DEBUG - Loading plugin 'position' from 'qtpyvcp.plugins.positions:Position'
-2022-02-17 19:59:06,578 - qtpyvcp.plugins - DEBUG - Loading plugin 'tooltable' from 'qtpyvcp.plugins.tool_table:ToolTable'
-2022-02-17 19:59:06,598 - qtpyvcp.plugins - DEBUG - Loading plugin 'offsettable' from 'qtpyvcp.plugins.offset_table:OffsetTable'
-2022-02-17 19:59:06,602 - qtpyvcp.plugins - DEBUG - Loading plugin 'notifications' from 'qtpyvcp.plugins.notifications:Notifications'
-2022-02-17 19:59:06,657 - qtpyvcp.plugins - DEBUG - Loading plugin 'file_locations' from 'qtpyvcp.plugins.file_locations:FileLocations'
-2022-02-17 19:59:06,876 - qtpyvcp.plugins - DEBUG - Loading plugin 'virtual_input' from 'qtpyvcp.plugins.virtual_input_manager:VirtualInputManager'
-2022-02-17 19:59:06,878 - qtpyvcp.app.launcher - DEBUG - Time: 0.346 (+0.346) - done loading data plugins
-2022-02-17 19:59:06,879 - qtpyvcp.app.launcher - DEBUG - Initializing app
-2022-02-17 19:59:07,072 - qtpyvcp.plugins - DEBUG - Initializing 'status' plugin
-2022-02-17 19:59:07,076 - qtpyvcp.plugins.status - DEBUG - Starting periodic updates with 15ms cycle time
-2022-02-17 19:59:07,077 - qtpyvcp.plugins - DEBUG - Initializing 'persistent_data_manager' plugin
-2022-02-17 19:59:07,078 - qtpyvcp.plugins - DEBUG - Initializing 'settings' plugin
-2022-02-17 19:59:07,079 - qtpyvcp.plugins - DEBUG - Initializing 'position' plugin
-2022-02-17 19:59:07,079 - qtpyvcp.plugins - DEBUG - Initializing 'tooltable' plugin
-2022-02-17 19:59:07,080 - qtpyvcp.plugins - DEBUG - Initializing 'offsettable' plugin
-2022-02-17 19:59:07,081 - qtpyvcp.plugins - DEBUG - Initializing 'notifications' plugin
-2022-02-17 19:59:07,081 - qtpyvcp.plugins - DEBUG - Initializing 'file_locations' plugin
-2022-02-17 19:59:07,110 - qtpyvcp.plugins - DEBUG - Initializing 'virtual_input' plugin
-2022-02-17 19:59:07,284 - qtpyvcp - INFO - Loading global stylesheet: /home/cnc/.local/lib/python2.7/site-packages/probe_basic/probe_basic.qss
-2022-02-17 19:59:07,306 - qtpyvcp.app.launcher - DEBUG - Time: 0.774 (+0.427) - done initializing app
-2022-02-17 19:59:07,306 - qtpyvcp.app.launcher - DEBUG - Loading dialogs
-2022-02-17 19:59:08,047 - qtpyvcp.app.launcher - DEBUG - Time: 1.515 (+0.741) - done loading dialogs
-2022-02-17 19:59:08,047 - qtpyvcp.app.launcher - DEBUG - Loading windows
-2022-02-17 19:59:10,357 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------using refactored vtk code
-2022-02-17 19:59:10,359 - qtpyvcp.widgets.display_widgets.vtk_backplot.linuxcnc_datasource - DEBUG - self._status.stat.g5x_offset: <type 'tuple'>
-2022-02-17 19:59:10,360 - qtpyvcp.widgets.display_widgets.vtk_backplot.linuxcnc_datasource - DEBUG - -----current_wcs index: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
-2022-02-17 19:59:10,360 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------active_wcs_index 0
-2022-02-17 19:59:10,361 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------active_wcs_offset (0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0)
-2022-02-17 19:59:10,361 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------wcs_offsets {0: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 1: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 2: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 3: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 4: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 5: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 6: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 7: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 8: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]}
-2022-02-17 19:59:10,398 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------translate1: (0.0, 0.0, 0.0)
-2022-02-17 19:59:10,399 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------active_wcs_offset: (0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0)
-2022-02-17 19:59:10,472 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - show grid
-2022-02-17 19:59:10,476 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - Setting view to: P
-2022-02-17 19:59:10,558 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------using refactored vtk code
-2022-02-17 19:59:10,560 - qtpyvcp.widgets.display_widgets.vtk_backplot.linuxcnc_datasource - DEBUG - self._status.stat.g5x_offset: <type 'tuple'>
-2022-02-17 19:59:10,560 - qtpyvcp.widgets.display_widgets.vtk_backplot.linuxcnc_datasource - DEBUG - -----current_wcs index: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
-2022-02-17 19:59:10,561 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------active_wcs_index 0
-2022-02-17 19:59:10,561 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------active_wcs_offset (0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0)
-2022-02-17 19:59:10,561 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------wcs_offsets {0: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 1: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 2: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 3: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 4: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 5: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 6: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 7: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 8: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]}
-2022-02-17 19:59:10,604 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------translate1: (0.0, 0.0, 0.0)
-2022-02-17 19:59:10,604 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------active_wcs_offset: (0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0)
-2022-02-17 19:59:10,674 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - show grid
-2022-02-17 19:59:10,677 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - Setting view to: P
-2022-02-17 19:59:12,740 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------using refactored vtk code
-2022-02-17 19:59:12,741 - qtpyvcp.widgets.display_widgets.vtk_backplot.linuxcnc_datasource - DEBUG - self._status.stat.g5x_offset: <type 'tuple'>
-2022-02-17 19:59:12,742 - qtpyvcp.widgets.display_widgets.vtk_backplot.linuxcnc_datasource - DEBUG - -----current_wcs index: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
-2022-02-17 19:59:12,742 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------active_wcs_index 0
-2022-02-17 19:59:12,742 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------active_wcs_offset (0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0)
-2022-02-17 19:59:12,743 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------wcs_offsets {0: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 1: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 2: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 3: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 4: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 5: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 6: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 7: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 8: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]}
-2022-02-17 19:59:12,771 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------translate1: (0.0, 0.0, 0.0)
-2022-02-17 19:59:12,771 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------active_wcs_offset: (0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0)
-2022-02-17 19:59:12,830 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - show grid
-2022-02-17 19:59:12,896 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - Setting view to: P
-2022-02-17 19:59:15,934 - qtpyvcp.plugins - DEBUG - Post GUI Initializing 'status' plugin
-2022-02-17 19:59:15,935 - qtpyvcp.plugins - DEBUG - Post GUI Initializing 'persistent_data_manager' plugin
-2022-02-17 19:59:15,935 - qtpyvcp.plugins - DEBUG - Post GUI Initializing 'settings' plugin
-2022-02-17 19:59:15,936 - qtpyvcp.plugins - DEBUG - Post GUI Initializing 'position' plugin
-2022-02-17 19:59:15,936 - qtpyvcp.plugins - DEBUG - Post GUI Initializing 'tooltable' plugin
-2022-02-17 19:59:15,937 - qtpyvcp.plugins - DEBUG - Post GUI Initializing 'offsettable' plugin
-2022-02-17 19:59:15,937 - qtpyvcp.plugins - DEBUG - Post GUI Initializing 'notifications' plugin
-2022-02-17 19:59:15,938 - qtpyvcp.plugins - DEBUG - Post GUI Initializing 'file_locations' plugin
-2022-02-17 19:59:15,939 - qtpyvcp.plugins - DEBUG - Post GUI Initializing 'virtual_input' plugin
-2022-02-17 19:59:16,553 - qtpyvcp.app.launcher - DEBUG - Time: 10.021 (+8.506) - done loading windows
-2022-02-17 19:59:16,553 - qtpyvcp.app.launcher - DEBUG - Initializing widgets
-2022-02-17 19:59:16,576 - qtpyvcp.hal - DEBUG - Using existing HAL component: qtpyvcp
-2022-02-17 19:59:16,576 - qtpyvcp.hal.hal_qlib - DEBUG - Adding HAL pin: qtpyvcp.timerseconds.enable (bit in)
-2022-02-17 19:59:16,577 - qtpyvcp.hal.hal_qlib - DEBUG - Adding HAL pin: qtpyvcp.timerseconds.in (u32 in)
-2022-02-17 19:59:16,586 - qtpyvcp.hal - DEBUG - Using existing HAL component: qtpyvcp
-2022-02-17 19:59:16,586 - qtpyvcp.hal.hal_qlib - DEBUG - Adding HAL pin: qtpyvcp.spindle-load-indicator.in-f (float in)
-2022-02-17 19:59:16,587 - qtpyvcp.hal.hal_qlib - DEBUG - Adding HAL pin: qtpyvcp.spindle-load-indicator.in-i (u32 in)
-2022-02-17 19:59:16,587 - qtpyvcp.hal.hal_qlib - DEBUG - Adding HAL pin: qtpyvcp.spindle-load-indicator.min-val (float in)
-2022-02-17 19:59:16,588 - qtpyvcp.hal.hal_qlib - DEBUG - Adding HAL pin: qtpyvcp.spindle-load-indicator.max-val (float in)
-2022-02-17 19:59:16,602 - qtpyvcp.hal - DEBUG - Using existing HAL component: qtpyvcp
-2022-02-17 19:59:16,602 - qtpyvcp.hal.hal_qlib - DEBUG - Adding HAL pin: qtpyvcp.timerminutes.enable (bit in)
-2022-02-17 19:59:16,603 - qtpyvcp.hal.hal_qlib - DEBUG - Adding HAL pin: qtpyvcp.timerminutes.in (u32 in)
-2022-02-17 19:59:16,617 - qtpyvcp.hal - DEBUG - Using existing HAL component: qtpyvcp
-2022-02-17 19:59:16,617 - qtpyvcp.hal.hal_qlib - DEBUG - Adding HAL pin: qtpyvcp.timerhours.enable (bit in)
-2022-02-17 19:59:16,618 - qtpyvcp.hal.hal_qlib - DEBUG - Adding HAL pin: qtpyvcp.timerhours.in (u32 in)
-2022-02-17 19:59:16,629 - qtpyvcp.app.launcher - DEBUG - Time: 10.097 (+0.076) - done initializing widgets
-2022-02-17 19:59:16,630 - qtpyvcp.app.launcher - INFO - Loading POSTGUI_HALFILE: /home/cnc/linuxcnc/configs/probe_basic/config/probe_basic/hallib/time.hal
-2022-02-17 19:59:16,875 - qtpyvcp.actions.program_actions - DEBUG - Loading NC program: /home/cnc/linuxcnc/nc_files/pb_examples/blank.ngc
-2022-02-17 19:59:17,599 - qtpyvcp.plugins.offset_table - DEBUG - Params file changed: /home/cnc/linuxcnc/configs/probe_basic/config/probe_basic/sim.var
-2022-02-17 19:59:17,602 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - -------load_program
-2022-02-17 19:59:17,613 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_canon - DEBUG - ---------received wcs change: 0
-2022-02-17 19:59:17,625 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_canon - DEBUG - G-code Comment: interpreter: feed mode set to units per minute
-2022-02-17 19:59:17,625 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_canon - DEBUG - G-code Comment: interpreter: cutter radius compensation off
-2022-02-17 19:59:17,626 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_canon - DEBUG - G-code Comment: interpreter: continuing to use same coordinate system
-2022-02-17 19:59:17,626 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_canon - DEBUG - G-code Comment: interpreter: retract mode set to old_z
-2022-02-17 19:59:17,626 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_canon - DEBUG - G-code Comment: interpreter: motion mode set to none
-2022-02-17 19:59:17,627 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_canon - DEBUG - G-code Comment: New Program
-2022-02-17 19:59:17,627 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_canon - DEBUG - ---------received wcs change: 0
-2022-02-17 19:59:17,627 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - -------Load time 0.0251259803772 seconds ---
-2022-02-17 19:59:17,628 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_canon - DEBUG - ---------path points size: 296
-2022-02-17 19:59:17,628 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_canon - DEBUG - ---------path points length: 1
-2022-02-17 19:59:17,629 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - -------Draw time 0.0263710021973 seconds ---
-2022-02-17 19:59:17,629 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------wcs_offsets: {0: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 1: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 2: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 3: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 4: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 5: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 6: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 7: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 8: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]}
-2022-02-17 19:59:17,629 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------wcs_index: 0
-2022-02-17 19:59:17,630 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------current_offsets: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
-2022-02-17 19:59:17,630 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------current_position: 0.0
-2022-02-17 19:59:17,685 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - -------load_program
-2022-02-17 19:59:17,692 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_canon - DEBUG - ---------received wcs change: 0
-2022-02-17 19:59:17,703 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_canon - DEBUG - G-code Comment: interpreter: feed mode set to units per minute
-2022-02-17 19:59:17,703 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_canon - DEBUG - G-code Comment: interpreter: cutter radius compensation off
-2022-02-17 19:59:17,703 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_canon - DEBUG - G-code Comment: interpreter: continuing to use same coordinate system
-2022-02-17 19:59:17,704 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_canon - DEBUG - G-code Comment: interpreter: retract mode set to old_z
-2022-02-17 19:59:17,704 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_canon - DEBUG - G-code Comment: interpreter: motion mode set to none
-2022-02-17 19:59:17,704 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_canon - DEBUG - G-code Comment: New Program
-2022-02-17 19:59:17,705 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_canon - DEBUG - ---------received wcs change: 0
-2022-02-17 19:59:17,705 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - -------Load time 0.0199010372162 seconds ---
-2022-02-17 19:59:17,705 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_canon - DEBUG - ---------path points size: 296
-2022-02-17 19:59:17,706 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_canon - DEBUG - ---------path points length: 1
-2022-02-17 19:59:17,706 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - -------Draw time 0.0211491584778 seconds ---
-2022-02-17 19:59:17,707 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------wcs_offsets: {0: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 1: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 2: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 3: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 4: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 5: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 6: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 7: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 8: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]}
-2022-02-17 19:59:17,707 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------wcs_index: 0
-2022-02-17 19:59:17,707 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------current_offsets: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
-2022-02-17 19:59:17,708 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------current_position: 0.0
-2022-02-17 19:59:17,862 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - -------load_program
-2022-02-17 19:59:17,869 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_canon - DEBUG - ---------received wcs change: 0
-2022-02-17 19:59:17,880 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_canon - DEBUG - G-code Comment: interpreter: feed mode set to units per minute
-2022-02-17 19:59:17,880 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_canon - DEBUG - G-code Comment: interpreter: cutter radius compensation off
-2022-02-17 19:59:17,881 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_canon - DEBUG - G-code Comment: interpreter: continuing to use same coordinate system
-2022-02-17 19:59:17,881 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_canon - DEBUG - G-code Comment: interpreter: retract mode set to old_z
-2022-02-17 19:59:17,881 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_canon - DEBUG - G-code Comment: interpreter: motion mode set to none
-2022-02-17 19:59:17,881 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_canon - DEBUG - G-code Comment: New Program
-2022-02-17 19:59:17,882 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_canon - DEBUG - ---------received wcs change: 0
-2022-02-17 19:59:17,882 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - -------Load time 0.0192210674286 seconds ---
-2022-02-17 19:59:17,882 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_canon - DEBUG - ---------path points size: 296
-2022-02-17 19:59:17,883 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_canon - DEBUG - ---------path points length: 1
-2022-02-17 19:59:17,883 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - -------Draw time 0.0204660892487 seconds ---
-2022-02-17 19:59:17,884 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------wcs_offsets: {0: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 1: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 2: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 3: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 4: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 5: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 6: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 7: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 8: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]}
-2022-02-17 19:59:17,884 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------wcs_index: 0
-2022-02-17 19:59:17,884 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------current_offsets: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
-2022-02-17 19:59:17,885 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------current_position: 0.0
-2022-02-17 19:59:18,155 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - on_offset_table_changed
-2022-02-17 19:59:18,155 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - on_offset_table_changed
-2022-02-17 19:59:18,156 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - on_offset_table_changed
-2022-02-17 19:59:25,647 - qtpyvcp - DEBUG - Terminating widgets
-2022-02-17 19:59:25,669 - qtpyvcp.plugins - DEBUG - Terminating 'virtual_input' plugin
-2022-02-17 19:59:25,669 - qtpyvcp.plugins - DEBUG - Terminating 'file_locations' plugin
-2022-02-17 19:59:25,669 - qtpyvcp.plugins - DEBUG - Terminating 'notifications' plugin
-2022-02-17 19:59:25,670 - qtpyvcp.plugins - DEBUG - Terminating 'offsettable' plugin
-2022-02-17 19:59:25,670 - qtpyvcp.plugins - DEBUG - Terminating 'tooltable' plugin
-2022-02-17 19:59:25,670 - qtpyvcp.plugins - DEBUG - Terminating 'position' plugin
-2022-02-17 19:59:25,670 - qtpyvcp.plugins - DEBUG - Terminating 'settings' plugin
-2022-02-17 19:59:25,671 - qtpyvcp.plugins - DEBUG - Terminating 'persistent_data_manager' plugin
-2022-02-17 19:59:25,671 - qtpyvcp.plugins.persistent_data_manager - DEBUG - Writing persistent data to file: /home/cnc/linuxcnc/configs/probe_basic/config/probe_basic/.vcp_persistent_data.pickle
-2022-02-17 19:59:25,673 - qtpyvcp.plugins - DEBUG - Terminating 'status' plugin
+2022-12-26 15:24:44,915 - qtpyvcp.utilities.info - INFO - The machine has 5 axes and 5 joints
+2022-12-26 15:24:44,916 - qtpyvcp.utilities.info - INFO - The Axis/Joint mapping is:
+2022-12-26 15:24:44,916 - qtpyvcp.utilities.info - INFO - Axis X --> Joint 0
+2022-12-26 15:24:44,916 - qtpyvcp.utilities.info - INFO - Axis Y --> Joint 1
+2022-12-26 15:24:44,916 - qtpyvcp.utilities.info - INFO - Axis Z --> Joint 2
+2022-12-26 15:24:44,917 - qtpyvcp.utilities.info - INFO - Axis A --> Joint 3
+2022-12-26 15:24:44,917 - qtpyvcp.utilities.info - INFO - Axis B --> Joint 4
+2022-12-26 15:24:44,917 - qtpyvcp.app.launcher - DEBUG - Time: 0.000 (+0.000) - in script
+2022-12-26 15:24:44,918 - qtpyvcp.app.launcher - DEBUG - Loading data plugings
+2022-12-26 15:24:44,918 - qtpyvcp.plugins - DEBUG - Loading plugin 'status' from 'qtpyvcp.plugins.status:Status'
+2022-12-26 15:24:44,923 - qtpyvcp.plugins.status - DEBUG - ---------set mdi_history: None, ['M6', 'T4', 'g0 x5', 'g0 x20', 'g0 z11', 'g0 z16', 'g0 z6', 'g0 z16', 'g0 z6', 'g0 z16', 'g0 z6', 'g0 z16', 'g0 z6', 'g0 z16', 'g0 z6', 'g0 z16', 'g0 z6', 'g0 z16', 'g0 z10', 'g0 z16', 'g0 z11', 'g0 z16', 'g0 z6', 'g0 z16', 'g0 z10', 'g0 z16', 'g0 z10', 'g0 z16', 'g0 z10.0', 'g0 z10.080', 'go z10.080', 'g0 z11.020', 'g0 z11', 'g0 z16', 'g0 z5.975', 'g0 z16', 'g0 z5.975', 'g0 z16', 'g0 z5.975', 'g0 z6.975', 'g0 z10.975', 'g0 z10.976', 'g0 z11', 'g0 z6', 'g0 z16', 'g0 z7', 'g0 z16', 'g0 z7', 'g0 z16', 'g0 z7', 'g0 z5.6468', 'g0 y2 z5.6468', 'g0 z16', 'g0 z5.6468', 'g0 z16.1468', 'g0 z6.1468', 'g0 x12.25 y2', 'g0 z16.1468', 'g0 z16', 'g0 z16.1468', 'g0 z6.1468', 'g0 z16', 'g0 z6.1465', 'g0 z16', 'g0 z6.1460', 'g0 z16', 'g0 z6.1440', 'g0 z16', 'g0 z6.1450', 'g0 z16', 'g0 z6.1450', 'g0 z15.1450', 'g0 z6.1450', 'g0 z15.1450', 'g0 z6.1450', 'g0 z15.1450', 'g0 x12.25 y2 z5.8', 'g0 z6.5', 'g0 y2', 'g0 z7', 'g0 z6', 'g0 z8', 'g0 x12.25 y1 z10', 'g0 y5', 'g0 x11', 'g0x7.58', 'g0 x20', 'g0 x7.58', 'g0 x7.600', 'g0 x7.66', 'g0 x7.67', 'g0 x7.69', 'g0 7.69', 'g0 x7.68', 'g0 x20', 'g0 x7.68', 'g0 x20', 'g0 x7.68', 'g0 x20', 'g0 x7.68']
+2022-12-26 15:24:44,936 - qtpyvcp.plugins - DEBUG - Loading plugin 'persistent_data_manager' from 'qtpyvcp.plugins.persistent_data_manager:PersistentDataManager'
+2022-12-26 15:24:44,943 - qtpyvcp.plugins - DEBUG - Loading plugin 'settings' from 'qtpyvcp.plugins.settings:Settings'
+2022-12-26 15:24:44,945 - qtpyvcp.plugins - DEBUG - Loading plugin 'position' from 'qtpyvcp.plugins.positions:Position'
+2022-12-26 15:24:44,947 - qtpyvcp.plugins - DEBUG - Loading plugin 'tooltable' from 'qtpyvcp.plugins.tool_table:ToolTable'
+2022-12-26 15:24:44,960 - qtpyvcp.plugins - DEBUG - Loading plugin 'offsettable' from 'qtpyvcp.plugins.offset_table:OffsetTable'
+2022-12-26 15:24:44,963 - qtpyvcp.plugins - DEBUG - Loading plugin 'notifications' from 'qtpyvcp.plugins.notifications:Notifications'
+2022-12-26 15:24:44,998 - qtpyvcp.plugins - DEBUG - Loading plugin 'file_locations' from 'qtpyvcp.plugins.file_locations:FileLocations'
+2022-12-26 15:24:45,156 - qtpyvcp.plugins - DEBUG - Loading plugin 'virtual_input' from 'qtpyvcp.plugins.virtual_input_manager:VirtualInputManager'
+2022-12-26 15:24:45,157 - qtpyvcp.app.launcher - DEBUG - Time: 0.240 (+0.240) - done loading data plugins
+2022-12-26 15:24:45,158 - qtpyvcp.app.launcher - DEBUG - Initializing app
+2022-12-26 15:24:45,384 - qtpyvcp.plugins - DEBUG - Initializing 'status' plugin
+2022-12-26 15:24:45,385 - qtpyvcp.plugins.status - DEBUG - Starting periodic updates with 15ms cycle time
+2022-12-26 15:24:45,386 - qtpyvcp.plugins - DEBUG - Initializing 'persistent_data_manager' plugin
+2022-12-26 15:24:45,387 - qtpyvcp.plugins - DEBUG - Initializing 'settings' plugin
+2022-12-26 15:24:45,387 - qtpyvcp.plugins - DEBUG - Initializing 'position' plugin
+2022-12-26 15:24:45,387 - qtpyvcp.plugins - DEBUG - Initializing 'tooltable' plugin
+2022-12-26 15:24:45,388 - qtpyvcp.plugins - DEBUG - Initializing 'offsettable' plugin
+2022-12-26 15:24:45,389 - qtpyvcp.plugins - DEBUG - Initializing 'notifications' plugin
+2022-12-26 15:24:45,389 - qtpyvcp.plugins - DEBUG - Initializing 'file_locations' plugin
+2022-12-26 15:24:45,425 - qtpyvcp.plugins - DEBUG - Initializing 'virtual_input' plugin
+2022-12-26 15:24:45,549 - qtpyvcp - INFO - Loading global stylesheet: /home/cnc/.local/lib/python2.7/site-packages/probe_basic/probe_basic.qss
+2022-12-26 15:24:45,562 - qtpyvcp.app.launcher - DEBUG - Time: 0.644 (+0.404) - done initializing app
+2022-12-26 15:24:45,562 - qtpyvcp.app.launcher - DEBUG - Loading dialogs
+2022-12-26 15:24:46,127 - qtpyvcp.app.launcher - DEBUG - Time: 1.209 (+0.565) - done loading dialogs
+2022-12-26 15:24:46,127 - qtpyvcp.app.launcher - DEBUG - Loading windows
+2022-12-26 15:24:47,622 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------using refactored vtk code
+2022-12-26 15:24:47,632 - qtpyvcp.widgets.display_widgets.vtk_backplot.linuxcnc_datasource - DEBUG - self._status.stat.g5x_offset: <type 'tuple'>
+2022-12-26 15:24:47,633 - qtpyvcp.widgets.display_widgets.vtk_backplot.linuxcnc_datasource - DEBUG - -----current_wcs index: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+2022-12-26 15:24:47,634 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------active_wcs_index 0
+2022-12-26 15:24:47,634 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------active_wcs_offset (0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0)
+2022-12-26 15:24:47,635 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------wcs_offsets {0: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 1: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 2: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 3: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 4: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 5: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 6: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 7: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 8: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]}
+2022-12-26 15:24:47,667 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------translate1: (0.0, 0.0, 0.0)
+2022-12-26 15:24:47,668 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------active_wcs_offset: (0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0)
+2022-12-26 15:24:47,740 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - show grid
+2022-12-26 15:24:47,743 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - Setting view to: P
+2022-12-26 15:24:47,835 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------using refactored vtk code
+2022-12-26 15:24:47,836 - qtpyvcp.widgets.display_widgets.vtk_backplot.linuxcnc_datasource - DEBUG - self._status.stat.g5x_offset: <type 'tuple'>
+2022-12-26 15:24:47,836 - qtpyvcp.widgets.display_widgets.vtk_backplot.linuxcnc_datasource - DEBUG - -----current_wcs index: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+2022-12-26 15:24:47,837 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------active_wcs_index 0
+2022-12-26 15:24:47,837 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------active_wcs_offset (0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0)
+2022-12-26 15:24:47,837 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------wcs_offsets {0: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 1: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 2: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 3: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 4: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 5: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 6: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 7: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 8: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]}
+2022-12-26 15:24:47,869 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------translate1: (0.0, 0.0, 0.0)
+2022-12-26 15:24:47,870 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------active_wcs_offset: (0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0)
+2022-12-26 15:24:47,928 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - show grid
+2022-12-26 15:24:47,947 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - Setting view to: P
+2022-12-26 15:24:49,565 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------using refactored vtk code
+2022-12-26 15:24:49,567 - qtpyvcp.widgets.display_widgets.vtk_backplot.linuxcnc_datasource - DEBUG - self._status.stat.g5x_offset: <type 'tuple'>
+2022-12-26 15:24:49,567 - qtpyvcp.widgets.display_widgets.vtk_backplot.linuxcnc_datasource - DEBUG - -----current_wcs index: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+2022-12-26 15:24:49,567 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------active_wcs_index 0
+2022-12-26 15:24:49,568 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------active_wcs_offset (0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0)
+2022-12-26 15:24:49,568 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------wcs_offsets {0: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 1: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 2: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 3: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 4: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 5: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 6: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 7: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 8: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]}
+2022-12-26 15:24:49,596 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------translate1: (0.0, 0.0, 0.0)
+2022-12-26 15:24:49,597 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------active_wcs_offset: (0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0)
+2022-12-26 15:24:49,655 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - show grid
+2022-12-26 15:24:49,658 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - Setting view to: P
+2022-12-26 15:24:51,865 - qtpyvcp.plugins - DEBUG - Post GUI Initializing 'status' plugin
+2022-12-26 15:24:51,865 - qtpyvcp.plugins - DEBUG - Post GUI Initializing 'persistent_data_manager' plugin
+2022-12-26 15:24:51,866 - qtpyvcp.plugins - DEBUG - Post GUI Initializing 'settings' plugin
+2022-12-26 15:24:51,866 - qtpyvcp.plugins - DEBUG - Post GUI Initializing 'position' plugin
+2022-12-26 15:24:51,866 - qtpyvcp.plugins - DEBUG - Post GUI Initializing 'tooltable' plugin
+2022-12-26 15:24:51,866 - qtpyvcp.plugins - DEBUG - Post GUI Initializing 'offsettable' plugin
+2022-12-26 15:24:51,867 - qtpyvcp.plugins - DEBUG - Post GUI Initializing 'notifications' plugin
+2022-12-26 15:24:51,868 - qtpyvcp.plugins - DEBUG - Post GUI Initializing 'file_locations' plugin
+2022-12-26 15:24:51,868 - qtpyvcp.plugins - DEBUG - Post GUI Initializing 'virtual_input' plugin
+2022-12-26 15:24:52,350 - qtpyvcp.app.launcher - DEBUG - Time: 7.433 (+6.223) - done loading windows
+2022-12-26 15:24:52,351 - qtpyvcp.app.launcher - DEBUG - Initializing widgets
+2022-12-26 15:24:52,376 - qtpyvcp.hal - DEBUG - Using existing HAL component: qtpyvcp
+2022-12-26 15:24:52,377 - qtpyvcp.hal.hal_qlib - DEBUG - Adding HAL pin: qtpyvcp.timerminutes.enable (bit in)
+2022-12-26 15:24:52,378 - qtpyvcp.hal.hal_qlib - DEBUG - Adding HAL pin: qtpyvcp.timerminutes.in (u32 in)
+2022-12-26 15:24:52,391 - qtpyvcp.hal - DEBUG - Using existing HAL component: qtpyvcp
+2022-12-26 15:24:52,392 - qtpyvcp.hal.hal_qlib - DEBUG - Adding HAL pin: qtpyvcp.timerhours.enable (bit in)
+2022-12-26 15:24:52,392 - qtpyvcp.hal.hal_qlib - DEBUG - Adding HAL pin: qtpyvcp.timerhours.in (u32 in)
+2022-12-26 15:24:52,423 - qtpyvcp.hal - DEBUG - Using existing HAL component: qtpyvcp
+2022-12-26 15:24:52,424 - qtpyvcp.hal.hal_qlib - DEBUG - Adding HAL pin: qtpyvcp.timerseconds.enable (bit in)
+2022-12-26 15:24:52,425 - qtpyvcp.hal.hal_qlib - DEBUG - Adding HAL pin: qtpyvcp.timerseconds.in (u32 in)
+2022-12-26 15:24:52,436 - qtpyvcp.hal - DEBUG - Using existing HAL component: qtpyvcp
+2022-12-26 15:24:52,437 - qtpyvcp.hal.hal_qlib - DEBUG - Adding HAL pin: qtpyvcp.spindle-load-indicator.in-f (float in)
+2022-12-26 15:24:52,438 - qtpyvcp.hal.hal_qlib - DEBUG - Adding HAL pin: qtpyvcp.spindle-load-indicator.in-i (u32 in)
+2022-12-26 15:24:52,438 - qtpyvcp.hal.hal_qlib - DEBUG - Adding HAL pin: qtpyvcp.spindle-load-indicator.min-val (float in)
+2022-12-26 15:24:52,440 - qtpyvcp.hal.hal_qlib - DEBUG - Adding HAL pin: qtpyvcp.spindle-load-indicator.max-val (float in)
+2022-12-26 15:24:52,461 - qtpyvcp.app.launcher - DEBUG - Time: 7.543 (+0.111) - done initializing widgets
+2022-12-26 15:24:52,462 - qtpyvcp.app.launcher - INFO - Loading POSTGUI_HALFILE: /home/cnc/linuxcnc/configs/probe_basic/config/probe_basic/hallib/time.hal
+2022-12-26 15:24:52,803 - qtpyvcp.actions.program_actions - DEBUG - Loading NC program: /home/cnc/linuxcnc/nc_files/pb_examples/blank.ngc
+2022-12-26 15:24:53,429 - qtpyvcp.plugins.offset_table - DEBUG - Params file changed: /home/cnc/linuxcnc/configs/probe_basic/config/probe_basic/sim.var
+2022-12-26 15:24:53,432 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - -------load_program
+2022-12-26 15:24:53,446 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_canon - DEBUG - ---------received wcs change: 0
+2022-12-26 15:24:53,461 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_canon - DEBUG - G-code Comment: interpreter: feed mode set to units per minute
+2022-12-26 15:24:53,462 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_canon - DEBUG - G-code Comment: interpreter: cutter radius compensation off
+2022-12-26 15:24:53,462 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_canon - DEBUG - G-code Comment: interpreter: continuing to use same coordinate system
+2022-12-26 15:24:53,462 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_canon - DEBUG - G-code Comment: interpreter: retract mode set to old_z
+2022-12-26 15:24:53,463 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_canon - DEBUG - G-code Comment: interpreter: motion mode set to none
+2022-12-26 15:24:53,463 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_canon - DEBUG - G-code Comment: New Program
+2022-12-26 15:24:53,463 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_canon - DEBUG - ---------received wcs change: 0
+2022-12-26 15:24:53,464 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - -------Load time 0.0307619571686 seconds ---
+2022-12-26 15:24:53,464 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_canon - DEBUG - ---------path points size: 296
+2022-12-26 15:24:53,464 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_canon - DEBUG - ---------path points length: 1
+2022-12-26 15:24:53,465 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - -------Draw time 0.0320160388947 seconds ---
+2022-12-26 15:24:53,465 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------wcs_offsets: {0: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 1: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 2: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 3: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 4: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 5: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 6: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 7: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 8: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]}
+2022-12-26 15:24:53,466 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------wcs_index: 0
+2022-12-26 15:24:53,466 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------current_offsets: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+2022-12-26 15:24:53,466 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------current_position: 0.0
+2022-12-26 15:24:53,522 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - -------load_program
+2022-12-26 15:24:53,529 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_canon - DEBUG - ---------received wcs change: 0
+2022-12-26 15:24:53,540 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_canon - DEBUG - G-code Comment: interpreter: feed mode set to units per minute
+2022-12-26 15:24:53,540 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_canon - DEBUG - G-code Comment: interpreter: cutter radius compensation off
+2022-12-26 15:24:53,540 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_canon - DEBUG - G-code Comment: interpreter: continuing to use same coordinate system
+2022-12-26 15:24:53,541 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_canon - DEBUG - G-code Comment: interpreter: retract mode set to old_z
+2022-12-26 15:24:53,541 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_canon - DEBUG - G-code Comment: interpreter: motion mode set to none
+2022-12-26 15:24:53,541 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_canon - DEBUG - G-code Comment: New Program
+2022-12-26 15:24:53,542 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_canon - DEBUG - ---------received wcs change: 0
+2022-12-26 15:24:53,542 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - -------Load time 0.0194170475006 seconds ---
+2022-12-26 15:24:53,542 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_canon - DEBUG - ---------path points size: 296
+2022-12-26 15:24:53,543 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_canon - DEBUG - ---------path points length: 1
+2022-12-26 15:24:53,543 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - -------Draw time 0.0205879211426 seconds ---
+2022-12-26 15:24:53,544 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------wcs_offsets: {0: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 1: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 2: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 3: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 4: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 5: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 6: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 7: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 8: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]}
+2022-12-26 15:24:53,544 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------wcs_index: 0
+2022-12-26 15:24:53,544 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------current_offsets: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+2022-12-26 15:24:53,545 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------current_position: 0.0
+2022-12-26 15:24:53,701 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - -------load_program
+2022-12-26 15:24:53,707 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_canon - DEBUG - ---------received wcs change: 0
+2022-12-26 15:24:53,719 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_canon - DEBUG - G-code Comment: interpreter: feed mode set to units per minute
+2022-12-26 15:24:53,719 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_canon - DEBUG - G-code Comment: interpreter: cutter radius compensation off
+2022-12-26 15:24:53,719 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_canon - DEBUG - G-code Comment: interpreter: continuing to use same coordinate system
+2022-12-26 15:24:53,720 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_canon - DEBUG - G-code Comment: interpreter: retract mode set to old_z
+2022-12-26 15:24:53,720 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_canon - DEBUG - G-code Comment: interpreter: motion mode set to none
+2022-12-26 15:24:53,720 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_canon - DEBUG - G-code Comment: New Program
+2022-12-26 15:24:53,721 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_canon - DEBUG - ---------received wcs change: 0
+2022-12-26 15:24:53,721 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - -------Load time 0.019483089447 seconds ---
+2022-12-26 15:24:53,721 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_canon - DEBUG - ---------path points size: 296
+2022-12-26 15:24:53,722 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_canon - DEBUG - ---------path points length: 1
+2022-12-26 15:24:53,722 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - -------Draw time 0.0207550525665 seconds ---
+2022-12-26 15:24:53,723 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------wcs_offsets: {0: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 1: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 2: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 3: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 4: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 5: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 6: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 7: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 8: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]}
+2022-12-26 15:24:53,723 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------wcs_index: 0
+2022-12-26 15:24:53,723 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------current_offsets: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+2022-12-26 15:24:53,724 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------current_position: 0.0
+2022-12-26 15:24:54,084 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - on_offset_table_changed
+2022-12-26 15:24:54,085 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - on_offset_table_changed
+2022-12-26 15:24:54,086 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - on_offset_table_changed
+2022-12-26 15:25:00,083 - qtpyvcp - DEBUG - Terminating widgets
+2022-12-26 15:25:00,110 - qtpyvcp.plugins - DEBUG - Terminating 'virtual_input' plugin
+2022-12-26 15:25:00,111 - qtpyvcp.plugins - DEBUG - Terminating 'file_locations' plugin
+2022-12-26 15:25:00,111 - qtpyvcp.plugins - DEBUG - Terminating 'notifications' plugin
+2022-12-26 15:25:00,112 - qtpyvcp.plugins - DEBUG - Terminating 'offsettable' plugin
+2022-12-26 15:25:00,112 - qtpyvcp.plugins - DEBUG - Terminating 'tooltable' plugin
+2022-12-26 15:25:00,112 - qtpyvcp.plugins - DEBUG - Terminating 'position' plugin
+2022-12-26 15:25:00,113 - qtpyvcp.plugins - DEBUG - Terminating 'settings' plugin
+2022-12-26 15:25:00,113 - qtpyvcp.plugins - DEBUG - Terminating 'persistent_data_manager' plugin
+2022-12-26 15:25:00,114 - qtpyvcp.plugins.persistent_data_manager - DEBUG - Writing persistent data to file: /home/cnc/linuxcnc/configs/probe_basic/config/probe_basic/.vcp_persistent_data.pickle
+2022-12-26 15:25:00,116 - qtpyvcp.plugins - DEBUG - Terminating 'status' plugin
